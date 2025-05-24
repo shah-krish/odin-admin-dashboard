@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.sidebar{
+    display: grid;
+    grid-column: 1/2;
+    padding-left: 20px;
+}
+.sidebar ul{
+    display: grid;
+    /* grid-column: 1/2; */
+    list-style: none;
+    padding: 0;
+    gap: 10px
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.main{
+    grid-column: 2/5;
+    display: grid;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+
+
+.searchbar{
+    border: 2px black solid;
+}
