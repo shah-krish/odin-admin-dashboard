@@ -39,7 +39,7 @@
    /* padding: 20px; */
 }
 .top > *{
-    border: 2px solid pink;
+   /*  border: 2px solid pink; */
     height: 20px;
 }
 .searchbar{
@@ -47,12 +47,21 @@
     border-radius: 8px;
     border: 2px solid black;
 }
-
+.magnify{
+    display: flex;
+    justify-content: flex-end;
+}
 .magnify img{
     max-height: 100%;
     max-width: 100%;
 }
-
+.oakley, .bell, .pfp{
+    display: flex;
+    justify-content: flex-end;
+}
+.oakley{
+    align-items: center;
+}
 
 .bottom{
     display: grid;
@@ -71,8 +80,9 @@
     border-color: white; */
     background-color: blue;
     color: white;
-    max-height: 30%;
-    max-width: 30%;
+    max-height: 60%;
+    max-width: 60%;
+    padding: 10px;
     align-self: center;
 }
 
