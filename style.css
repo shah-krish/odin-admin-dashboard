@@ -53,6 +53,7 @@
     display: grid;
     grid-template-rows: auto auto;
     grid-row: 1/2;
+    height: 70px;
   }
 .top{
     display: grid;
@@ -64,13 +65,18 @@
     width: 40vw;
 }
 .top>*{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 30px;
     display: grid;
 }
 .top >* img{
     max-height: 30px;
     max-width: 30px;
+}
+.name{
+    min-height: 30px;
+    display: grid;
+    align-items: center;
 }
 .bottom{
     display: grid;
