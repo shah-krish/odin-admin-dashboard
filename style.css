@@ -51,34 +51,77 @@
 }
 .header{
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1fr 2fr;
     grid-row: 1/2;
-    height: 70px;
+    height: 100px;
+    /* gap: 20px; */
   }
 .top{
+    grid-row: 1/2;
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: 60px auto auto;
+    /* max-height: 30px; */
+    align-items: center;
 }
 .searchbar{
     background-color: rgb(220, 220, 220);
     border-radius: 15px;
     width: 40vw;
+    height: 30px;
 }
 .top>*{
-    border: 2px solid red;
-    height: 30px;
+    /* border: 2px solid red; */
     display: grid;
+    align-items: center;
 }
 .top >* img{
     max-height: 30px;
     max-width: 30px;
 }
-.name{
-    min-height: 30px;
+.rightSide{
     display: grid;
-    align-items: center;
+    grid-template-columns: repeat(3,auto);
+}
+.magnify{
+    justify-self: end;
+}
+.magnify img{
+    height:  30px;
+    width: 30px;
 }
 .bottom{
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-row: 2/3;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+.leftBottom{
+    display: grid;
+    grid-template-columns: 90px 1fr;
+}
+.leftBottom >*{
+    border: 2px solid black;
+}
+.pfpBottom{
+    display: grid;
+    align-items: center;
+    justify-self: end;
+}
+.leftBottom >* img{
+    height: 45px;
+    width: 45px;
+}
+.rightBottom{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.buttons button{
+    background-color:#1b81cc;
+    color: white;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid white;
 }
