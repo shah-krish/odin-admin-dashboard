@@ -53,7 +53,7 @@
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-row: 1/2;
-    height: 100px;
+    
     /* gap: 20px; */
   }
 .top{
@@ -94,13 +94,12 @@
     grid-row: 2/3;
     grid-template-columns: repeat(2, auto);
     align-items: center;
+    gap: 35%
 }
 .leftBottom{
     display: grid;
     grid-template-columns: 90px 1fr;
-}
-.leftBottom >*{
-    border: 2px solid black;
+    gap: 10px;
 }
 .pfpBottom{
     display: grid;
@@ -124,4 +123,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border: 2px solid white;
+}
+.body{
+    display: grid;
+    grid-row: 2/3;
+    background-color: rgb(220, 220, 220);
+    border-top: 2px solid #ccc;
 }
