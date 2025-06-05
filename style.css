@@ -129,4 +129,24 @@
     grid-row: 2/3;
     background-color: rgb(220, 220, 220);
     border-top: 2px solid #ccc;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px
+}
+.leftBody{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.cardHolder{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border-left: 8px orange solid;
 }
