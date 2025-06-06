@@ -9,7 +9,7 @@
     grid-column: 1/2;
     background-color: #1b81cc;
     color: white;
-    height: 100vh;
+    height: 100%;
     padding: 30px;
     padding-right: 60px;
     display: grid;
@@ -149,4 +149,35 @@
     padding: 10px;
     border-radius: 8px;
     border-left: 8px orange solid;
+}
+.rightBody{
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 10px;
+    padding-left: 20px;
+}
+.bigBox{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+.part1{
+    border-bottom: 2px solid #ccc;
+}
+.part2{
+    border-bottom: 2px solid #ccc;
+}
+.pet{
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-items: center;
+}
+.pet img{
+    max-height: 30px;
+    max-width: 30px;
+}
+.boxBottom{
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 20px;
 }
